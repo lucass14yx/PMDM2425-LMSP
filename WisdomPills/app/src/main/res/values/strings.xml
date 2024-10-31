@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name" translatable="false">WisdomPills</string>
+    <string name="btn_register">Register</string>
+    <string name="btn_login" translatable="false">Login</string>
+    <string name="lbl_WisdomPills" translatable="false">Wisdom Pills</string>
+</resources>

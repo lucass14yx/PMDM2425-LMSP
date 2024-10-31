@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EjerciciosButton</string>
+    <string name="lbl_result">Resultado:</string>
+    <string name="lbl_number1">Número 1:</string>
+    <string name="lbl_number2">Número 2:</string>
+    <string name="lbl_clear">Limpiar</string>
+</resources>
