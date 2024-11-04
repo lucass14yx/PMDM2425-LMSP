@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">WisdomPills</string>
+    <string name="app_name">WisdomPills</string>
     <string name="btn_register">Register</string>
     <string name="btn_login">Login</string>
     <string name="lbl_WisdomPills">Wisdom Pills</string>

@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.maestre.wisdompills"
-    compileSdk = 34
+    namespace = "com.maestre.toolbarexample"
+    compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.maestre.wisdompills"
-        minSdk = 24
-        targetSdk = 35
+        applicationId = "com.maestre.toolbarexample"
+        minSdk = 34
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -36,9 +36,6 @@ android {
     buildFeatures {
         viewBinding = true
     }
-    androidResources{
-        generateLocaleConfig = true
-    }
 }
 
 dependencies {
@@ -51,4 +48,5 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
+    implementation("com.google.android.material:material:1.12.0")
 }

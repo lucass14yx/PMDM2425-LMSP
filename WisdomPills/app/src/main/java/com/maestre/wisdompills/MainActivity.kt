@@ -14,11 +14,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.btnRegister.setOnClickListener{
-            val intent = Intent(this, ActividadRegistro::class.java)
+            val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
         binding.btnLoggeo.setOnClickListener{
-            val intent = Intent(this, ActividadLoggeo::class.java)
+            val intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
         }
 
