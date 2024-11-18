@@ -7,4 +7,5 @@
     <string name="autocompleted_textview">Enter your pill</string>
     <string name="search">Search</string>
     <string name="settings">Settings</string>
+    <string name="btn_add">Add</string>
 </resources>

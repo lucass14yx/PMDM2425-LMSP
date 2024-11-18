@@ -6,4 +6,7 @@
     <string name="description_ivWisdom">Un hombre mayor y sabio cominedo píldoras.</string>
     <string name="btn_other">Otras opciones</string>
     <string name="autocompleted_textview">Introduce tu píldora</string>
+    <string name="search">Buscar</string>
+    <string name="settings">Configuración</string>
+    <string name="btn_add">Añadir</string>
 </resources>
