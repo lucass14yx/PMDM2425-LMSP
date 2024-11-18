@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">WisdomPills</string>
-    <string name="btn_register">Register</string>
-    <string name="btn_login">Login</string>
+    <string name="btn_enter">Enter</string>
     <string name="lbl_WisdomPills">Wisdom Pills</string>
     <string name="description_ivWisdom">An old and Wisdom man eating pills.</string>
 </resources>

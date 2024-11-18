@@ -13,12 +13,12 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnRegister.setOnClickListener{
-            val intent = Intent(this, RegisterActivity::class.java)
+        binding.btnOther.setOnClickListener{
+            val intent = Intent(this, OtherActivity::class.java)
             startActivity(intent)
         }
-        binding.btnLoggeo.setOnClickListener{
-            val intent = Intent(this, LoginActivity::class.java)
+        binding.btnEnter.setOnClickListener{
+            val intent = Intent(this, EnterActivity::class.java)
             startActivity(intent)
         }
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">WisdomPills</string>
-    <string name="btn_register">Registro</string>
-    <string name="btn_login">Loggeo</string>
+    <string name="btn_enter">Entrar</string>
     <string name="lbl_WisdomPills">Wisdom Pills</string>
+    <string name="btn_other">Otras opciones</string>
 </resources>

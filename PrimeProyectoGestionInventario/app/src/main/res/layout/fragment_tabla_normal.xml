@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TablaNormal">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+    <!-- Normal -->
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <!-- Fila 1 -->
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/borde"
+                android:text="@string/tornillo"
+                tools:layout_editor_absoluteX="41dp"
+                tools:layout_editor_absoluteY="69dp" />
+
+            <TextView
+                android:background="@drawable/borde"
+                android:text="@string/hiroken"
+                android:paddingRight="20dp" />
+        </TableRow>
+
+        <!-- Fila 2 -->
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:background="@drawable/borde"
+                android:text="Taladro" />
+
+            <TextView
+                android:background="@drawable/borde"
+                android:text="@string/bosch" />
+        </TableRow>
+
+        <!-- Fila 3 -->
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:background="@drawable/borde"
+                android:text="Lijadora" />
+
+            <TextView
+                android:background="@drawable/borde"
+                android:text="Makita" />
+        </TableRow>
+
+        <!-- Fila 4 -->
+        <TableRow
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:background="@drawable/borde"
+                android:text="Amoladora" />
+
+            <TextView
+                android:background="@drawable/borde"
+                android:text="Makita" />
+        </TableRow>
+
+        <!-- Fila 5 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:background="@drawable/borde"
+                android:text="Llave inglesa" />
+
+            <TextView
+                android:background="@drawable/borde"
+                android:text="@string/truper" />
+        </TableRow>
+
+        <!-- Fila 6 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:background="@drawable/borde"
+                android:text="Destornillador" />
+
+            <TextView
+                android:background="@drawable/borde"
+                android:text="@string/truper" />
+        </TableRow>
+
+        <!-- Fila 7 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:background="@drawable/borde"
+                android:text="@string/sierra_electrica"
+                android:paddingRight="30dp"/>
+
+            <TextView
+                android:background="@drawable/borde"
+                android:text="@string/bosch" />
+        </TableRow>
+
+        <!-- Fila 8 -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_height="match_parent"
+                android:background="@drawable/borde"
+                android:text="Taladro" />
+
+            <TextView
+                android:background="@drawable/borde"
+                android:text="@string/bosch" />
+        </TableRow>
+    </TableLayout>
+</FrameLayout>

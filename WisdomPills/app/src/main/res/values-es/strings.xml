@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">WisdomPills</string>
-    <string name="btn_register">Registro</string>
-    <string name="btn_login">Acceso</string>
+    <string name="btn_enter">Entrar</string>
     <string name="lbl_WisdomPills">Píldoras de sabiduría</string>
     <string name="description_ivWisdom">Un hombre mayor y sabio cominedo píldoras.</string>
+    <string name="btn_other">Otras opciones</string>
+    <string name="autocompleted_textview">Introduce tu píldora</string>
 </resources>

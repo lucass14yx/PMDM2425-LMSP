@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name" translatable="false">WisdomPills</string>
-    <string name="btn_register">Register</string>
-    <string name="btn_login">Login</string>
+    <string name="btn_other">More Options</string>
+    <string name="btn_enter">Enter</string>
     <string name="lbl_WisdomPills">Wisdom Pills</string>
     <string name="description_ivWisdom">An old and Wisdom man eating pills.</string>
+    <string name="autocompleted_textview">Enter your pill</string>
+    <string name="search">Search</string>
+    <string name="settings">Settings</string>
 </resources>

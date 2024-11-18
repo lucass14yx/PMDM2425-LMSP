@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">PrimeProyectoGestionInventario</string>
+    <string name="tornillo">Tornillo</string>
+    <string name="hiroken">Hiroken</string>
+    <string name="bosch">Bosch</string>
+    <string name="martillo">Martillo</string>
+    <string name="stanley">Stanley</string>
+    <string name="cinta_m_trica">Cinta métrica</string>
+    <string name="truper">Truper</string>
+    <string name="sierra_electrica">Sierra eléctrica</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="makita">Makita</string>
+</resources>
