@@ -2,4 +2,11 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="white_own">#EEEEEE</color>
+    <color name="gray_own">#808080</color>
+    <color name="blue_marine_own">#000080</color>
+    <color name="green_olive_own">#808000</color>
+    <color name="red_wine_own">#800000</color>
+    <color name="pink_own">#FFDAB9</color>
+    <color name="yellow_mustard_own">#FFDB58</color>
 </resources>

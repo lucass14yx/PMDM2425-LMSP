@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="buttonStyle">
+        <item name="backgroundTint">@color/green_olive_own</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="editTextOwn">
+        <item name="colorControlNormal">@color/gray_own</item>
+        <item name="android:background">@color/white_own</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="editTextOwn_night">
+        <item name="colorControlNormal">@color/gray_own</item>
+        <item name="android:background">@color/pink_own</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+</resources>
