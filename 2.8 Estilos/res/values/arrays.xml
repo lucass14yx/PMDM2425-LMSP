@@ -1,0 +1,12 @@
+<resources>
+    <!-- Reply Preference -->
+    <string-array name="reply_entries">
+        <item>App New Theme</item>
+        <item>Base Theme Preferencias App</item>
+    </string-array>
+
+    <string-array name="reply_values">
+        <item>AppNewTheme</item>
+        <item>Base.Theme.PreferenciasApp</item>
+    </string-array>
+</resources>
