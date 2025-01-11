@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SQLiteMVVM</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_title">Añadir Abogado</string>
+    <string name="detail_title">Detalle Abogado</string>
+    <string name="edit_title">Edición Abogado</string>
+</resources>
