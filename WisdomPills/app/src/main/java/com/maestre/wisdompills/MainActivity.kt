@@ -1,3 +1,5 @@
+@file:Suppress("DEPRECATION")
+
 package com.maestre.wisdompills
 
 import android.content.Intent
@@ -15,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         // Establecer el tema antes de inflar las vistas
         val sharedPreferences = PreferenceManager.getDefaultSharedPreferences(applicationContext)
         //tema
-        val themeName = sharedPreferences?.getString("pref_themes", "AppNewTheme") ?: "AppNewTheme"
+        val themeName = sharedPreferences?.getString("pref_themes", "WisdomPillsTheme") ?: "WisdomPillsTheme"
         Toast.makeText(this, "Main-Tema: $themeName ", Toast.LENGTH_SHORT).show()
         // Lee el nombre del tema
         when (themeName) {
@@ -35,11 +37,11 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.btnOther.setOnClickListener{
-            val intent = Intent(this, OtherActivity::class.java)
+        binding.btnSignUp.setOnClickListener{
+            val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
-        binding.btnEnter.setOnClickListener{
+        binding.btnSignIn.setOnClickListener{
             val intent = Intent(this, EnterActivity::class.java)
             startActivity(intent)
         }

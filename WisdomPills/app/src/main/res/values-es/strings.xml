@@ -9,4 +9,8 @@
     <string name="search">Buscar</string>
     <string name="settings">Configuración</string>
     <string name="btn_add">Añadir</string>
+    <string name="et_name">Nombre</string>
+    <string name="et_repeatpassword">Repite la contraseña</string>
+    <string name="et_password">Contraseña</string>
+    <string name="btn_reg">Registrar ahora</string>
 </resources>

@@ -2,14 +2,14 @@ package com.maestre.wisdompills
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.maestre.wisdompills.databinding.ActivityOtherBinding
+import com.maestre.wisdompills.databinding.ActivityRegisterBinding
 
 
-class OtherActivity : AppCompatActivity() {
-    private lateinit var binding: ActivityOtherBinding
+class RegisterActivity : AppCompatActivity() {
+    private lateinit var binding: ActivityRegisterBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = ActivityOtherBinding.inflate(layoutInflater)
+        binding = ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
     }
 }
