@@ -18,11 +18,11 @@
         android:contentDescription="@string/description_ivWisdom"
         android:background="@drawable/stroke"
         android:scaleType="centerCrop"
-        android:padding="4dp"
+        android:padding="3dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@mipmap/wisdom_round" />
+        app:srcCompat="@mipmap/wisdompills_icon_round" />
     <EditText
         android:id="@+id/etEmail"
         android:height="50dp"
@@ -79,7 +79,7 @@
         app:layout_constraintTop_toBottomOf="@+id/etPassword" />
 
     <ImageButton
-        android:id="@+id/imageButton3"
+        android:id="@+id/imageButtonGoogle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
