@@ -3,9 +3,9 @@ package com.maestre.wisdompills.Model.adapter
 import android.graphics.Color
 import android.view.LayoutInflater
 import android.view.ViewGroup
-import com.maestre.firebaseexample.model.Note
 import androidx.recyclerview.widget.RecyclerView
-import com.maestre.firebaseexample.R
+import com.maestre.wisdompills.R
+import com.maestre.wisdompills.Model.Note
 
 class NoteAdapter (private val notas: List<Note>): RecyclerView.Adapter<NoteViewHolder>() {
     private var data: List<Note>

@@ -1,4 +1,4 @@
-package com.maestre.wisdompills
+package com.maestre.wisdompills.View
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
