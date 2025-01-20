@@ -8,7 +8,7 @@ import com.maestre.wisdompills.Model.Note
 class NoteRepository {
     private var databaseReference: DatabaseReference
     init {
-        databaseReference = FirebaseDatabase.getInstance("https://fir-example-fc9e4-default-rtdb.europe-west1.firebasedatabase.app/").reference
+        databaseReference = FirebaseDatabase.getInstance("https://wisdompills-14-default-rtdb.europe-west1.firebasedatabase.app/").reference
     }
 
     fun addNote(note: Note) {
