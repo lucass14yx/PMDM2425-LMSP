@@ -1,7 +1,21 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.WisdomPills" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Base application theme for night mode -->
+    <style name="Base.Theme.WisdomPills.Night" parent="Theme.AppCompat.DayNight.NoActionBar">
         <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <!-- Example dark colors -->
+        <item name="colorPrimary">@color/my_dark_primary</item>
+        <item name="colorPrimaryDark">@color/my_dark_primary_dark</item>
+        <item name="colorAccent">@color/my_dark_accent</item>
+        <item name="android:background">@color/dark_background</item>
+    </style>
+
+    <style name="WisdomPillsTheme.Night" parent="Base.Theme.WisdomPills.Night">
+        <item name="android:background">@color/dark_mint</item>
+        <item name="android:buttonStyle">@style/ButtonStyle.Night</item>
+    </style>
+
+    <style name="ButtonStyle.Night" parent="Widget.AppCompat.Button">
+        <item name="android:textColor">@color/dark_white</item>
+        <item name="android:background">@drawable/rounded_button_dark</item>
     </style>
 </resources>
