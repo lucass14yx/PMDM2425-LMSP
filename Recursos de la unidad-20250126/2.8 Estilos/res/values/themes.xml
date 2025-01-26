@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PreferenciasApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="android:background">#F8E8E3</item>
+        <item name="android:textColor">@android:color/holo_red_dark</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Theme.PreferenciasApp" parent="Base.Theme.PreferenciasApp" />
+
+    <style name="AppNewTheme" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Estilos para Edit Texts #F6DEF6-->
+        <item name="android:background">#CDF3F4</item>
+        <!-- Estilos de ventana-->
+        <item name="android:windowFullscreen">true</item>
+        <!-- Estilos de TextView-->
+        <!--<item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>-->
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">@android:color/holo_blue_bright</item>
+        <item name="android:textStyle">italic</item>
+    </style>
+</resources>

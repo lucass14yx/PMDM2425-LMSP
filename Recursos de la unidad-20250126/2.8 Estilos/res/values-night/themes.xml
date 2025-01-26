@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.PreferenciasApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="android:background">#E1F0DA</item>
+        <item name="android:textColor">@android:color/holo_green_dark</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="AppNewTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Estilos para Edit Texts-->
+        <item name="android:background">#D0CABF</item>
+        <!-- Estilos de ventana-->
+        <item name="android:windowFullscreen">true</item>
+        <!-- Estilos de TextView-->
+        <!--<item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>-->
+        <item name="android:textAppearance">?android:attr/textAppearanceLarge</item>
+        <item name="android:textColor">#FFEB3B</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+</resources>
